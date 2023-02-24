@@ -5,6 +5,7 @@
 
 ##Pseudocode##
 # declare an array with strings in a variety of lengths, some more than 4 characters long and some shorter
+# use the .each do method to iterate through the array
 # use the .length method to check the length of the strings contained in the array
 # if the strings are exactly 4 characters long, return them
 
