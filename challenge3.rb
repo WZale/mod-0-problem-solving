@@ -7,6 +7,13 @@
 # declare an array with strings containing words with and without the letter combination "ing"
 # use the .each do method to iterate through the array
 # use the .include? method to check for strings containing the letter combination "ing"
-# print the array
+# if the string inlcudes "ing" print only those strings
 
+words = ["walk", "walking", "talk", "talking", "sing", "song"]
+
+words.each do |word|
+    if word.include?("ing")
+        puts word
+    end
+end
 ##Final Solution##
