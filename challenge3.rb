@@ -9,6 +9,7 @@
 # use the .include? method to check for strings containing the letter combination "ing"
 # if the string inlcudes "ing" print only those strings
 
+##Final Solution##
 words = ["walk", "walking", "talk", "talking", "sing", "song"]
 
 words.each do |word|
@@ -16,4 +17,3 @@ words.each do |word|
         puts word
     end
 end
-##Final Solution##
